@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "opentalon": {
+      "type": "stdio",
+      "command": "${user_config.executable}",
+      "args": [
+        "${user_config.bridge}"
+      ],
+      "env": {
+        "ELECTRON_RUN_AS_NODE": "1",
+        "OPENTALON_MCP_CONFIG": "${user_config.connection_file}"
+      }
+    }
+  }
+}

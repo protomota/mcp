@@ -1,0 +1,33 @@
+{
+  "name": "opentalon-mcp",
+  "displayName": "OpenTalon MCP",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Read and update boards and tasks in the OpenTalon Mac app.",
+  "author": {
+    "name": "Protomota, LLC",
+    "url": "https://protomota.com/"
+  },
+  "homepage": "https://protomota.com/mcp#opentalon",
+  "repository": "https://github.com/protomota/mcp",
+  "userConfig": {
+    "executable": {
+      "type": "string",
+      "title": "App executable",
+      "description": "Paste the Command shown in OpenTalon agent setup. Use the absolute path without shell quotes.",
+      "required": true
+    },
+    "bridge": {
+      "type": "string",
+      "title": "Bridge argument",
+      "description": "Paste the single Argument shown in OpenTalon agent setup.",
+      "required": true
+    },
+    "connection_file": {
+      "type": "string",
+      "title": "Connection file",
+      "description": "Paste the value of OPENTALON_MCP_CONFIG shown in OpenTalon agent setup.",
+      "required": true
+    }
+  }
+}

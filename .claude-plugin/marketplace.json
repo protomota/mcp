@@ -1,0 +1,24 @@
+{
+  "name": "protomota-mcp",
+  "description": "Local Mac integrations for Jotley, Inkspring, and OpenTalon.",
+  "owner": {
+    "name": "Protomota, LLC"
+  },
+  "plugins": [
+    {
+      "name": "jotley-mcp",
+      "source": "./plugins/jotley-mcp",
+      "description": "Search and organize notes, transcripts, and summaries in the Jotley Mac app."
+    },
+    {
+      "name": "inkspring-mcp",
+      "source": "./plugins/inkspring-mcp",
+      "description": "Use project research, drafts, and newsletters from the Inkspring desktop app."
+    },
+    {
+      "name": "opentalon-mcp",
+      "source": "./plugins/opentalon-mcp",
+      "description": "Read and update boards and tasks in the OpenTalon Mac app."
+    }
+  ]
+}

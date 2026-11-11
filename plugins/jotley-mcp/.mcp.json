@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jotley": {
+      "type": "stdio",
+      "command": "${user_config.executable}",
+      "args": [
+        "--mcp-stdio"
+      ]
+    }
+  }
+}

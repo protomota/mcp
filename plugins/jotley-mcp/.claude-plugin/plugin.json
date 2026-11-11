@@ -1,0 +1,21 @@
+{
+  "name": "jotley-mcp",
+  "displayName": "Jotley MCP",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Search and organize notes, transcripts, and summaries in the Jotley Mac app.",
+  "author": {
+    "name": "Protomota, LLC",
+    "url": "https://protomota.com/"
+  },
+  "homepage": "https://protomota.com/mcp#jotley",
+  "repository": "https://github.com/protomota/mcp",
+  "userConfig": {
+    "executable": {
+      "type": "string",
+      "title": "App executable",
+      "description": "Paste the Command shown in Jotley agent setup. Use the absolute path without shell quotes.",
+      "required": true
+    }
+  }
+}
