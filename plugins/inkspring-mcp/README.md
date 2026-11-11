@@ -2,6 +2,8 @@
 
 Find project research, edit unpublished drafts, and save newsletters in Inkspring. The plugin uses the MCP-enabled Inkspring Mac app in `/Applications`.
 
+The Claude Marketplace plugin exposes project and saved research reads, draft reads and edits, and local newsletter drafts. Publishing, scheduling, vault access, and image generation are outside this plugin’s tool set.
+
 1. Open Inkspring and enable MCP in its agent settings.
 2. In a local Claude Code session, run `/plugin install protomota-inkspring-mcp --marketplace protomota/mcp`.
 3. Open the plugin settings and enter the connection file value shown as `INKSPRING_MCP_CONFIG` in Inkspring agent setup.
