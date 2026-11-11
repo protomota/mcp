@@ -1,6 +1,6 @@
 {
   "name": "protomota-mcp",
-  "description": "Local Mac integrations for Jotley, Inkspring, and OpenTalon.",
+  "description": "Local Mac integrations for Jotley, Inkspring, OpenTalon, and TEXTLEY.",
   "owner": {
     "name": "Protomota, LLC"
   },
@@ -19,6 +19,11 @@
       "name": "protomota-opentalon-mcp",
       "source": "./plugins/opentalon-mcp",
       "description": "Read and update boards and tasks in the OpenTalon Mac app."
+    },
+    {
+      "name": "protomota-textley-mcp",
+      "source": "./plugins/textley-mcp",
+      "description": "Read and edit text in TEXTLEY tabs and folder vaults on Mac."
     }
   ]
 }

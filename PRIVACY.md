@@ -11,3 +11,5 @@ The plugins run in a local Claude Code session and connect to the matching Mac a
 Keep the app’s MCP setting off when you do not need it. Use disposable data for your first test. For privacy, support, or security reports, contact [Protomota](https://protomota.com/#contact).
 
 [Anthropic privacy policy](https://www.anthropic.com/legal/privacy)
+
+**TEXTLEY.** The connection reads open tabs and text files in folders added to TEXTLEY. Read and write access also allows file edits and editor actions. The connection runs on the Mac and the app controls its permissions. [TEXTLEY privacy policy](https://textley.ai/privacy/#mcp)
