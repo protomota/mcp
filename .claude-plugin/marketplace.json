@@ -23,7 +23,7 @@
     {
       "name": "protomota-textley-mcp",
       "source": "./plugins/textley-mcp",
-      "description": "Read and edit text in TEXTLEY tabs and folder vaults on Mac."
+      "description": "Read and edit text in Textley tabs and folder vaults on Mac."
     }
   ]
 }
