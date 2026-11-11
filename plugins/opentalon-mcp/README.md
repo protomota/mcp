@@ -9,4 +9,6 @@ Read boards and update tasks in OpenTalon. Tasks are manual by default. The plug
 
 Start with `list_boards`, `list_tasks`, or `get_task`. Read the current revision before changing a task. Use a fresh request key for each mutation. Move a task to Sent to agent only when the user requests dispatch.
 
-[OpenTalon setup and availability](https://protomota.com/mcp#opentalon-claude) · [Support](https://protomota.com/#contact)
+Try listing boards, reading To do tasks on a test board, or adding a manual task to a disposable board.
+
+[OpenTalon setup and availability](https://protomota.com/mcp#opentalon-claude) · [Privacy policy](https://github.com/protomota/mcp/blob/main/PRIVACY.md#privacy-for-protomota-mcp-plugins) · [Terms of service](https://protomota.com/terms) · [Support and security reports](https://protomota.com/#contact)

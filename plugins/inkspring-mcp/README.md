@@ -9,4 +9,6 @@ Find project research, edit unpublished drafts, and save newsletters in Inksprin
 
 Start with `list_projects`, `list_drafts`, or `get_draft`. Use `edit_draft` on the selected draft. Keep changes unpublished unless the user requests publication or scheduling.
 
-[Inkspring setup and availability](https://protomota.com/mcp#inkspring-claude) · [Support](https://protomota.com/#contact)
+Try listing projects, finding a draft in a test project, or saving a supplied paragraph as an unpublished newsletter.
+
+[Inkspring setup and availability](https://protomota.com/mcp#inkspring-claude) · [Privacy policy](https://github.com/protomota/mcp/blob/main/PRIVACY.md#privacy-for-protomota-mcp-plugins) · [Terms of service](https://protomota.com/terms) · [Support and security reports](https://protomota.com/#contact)

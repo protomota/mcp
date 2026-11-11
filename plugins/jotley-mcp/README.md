@@ -9,4 +9,6 @@ Search notes and read transcripts or summaries. Jotley’s in-app access setting
 
 Start with `search_notes` or `list_notes`. Use `read_note` with a section such as `summary` or `transcript`. Read the current revision before editing.
 
-[Jotley setup and availability](https://protomota.com/mcp#jotley-claude) · [Support](https://protomota.com/#contact)
+Try searching for “release checklist”, listing recent notes from a test folder, or reading the summary of a note you choose.
+
+[Jotley setup and availability](https://protomota.com/mcp#jotley-claude) · [Privacy policy](https://github.com/protomota/mcp/blob/main/PRIVACY.md#privacy-for-protomota-mcp-plugins) · [Terms of service](https://protomota.com/terms) · [Support and security reports](https://protomota.com/#contact)
