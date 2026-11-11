@@ -1,7 +1,7 @@
 {
   "name": "protomota-textley-mcp",
   "displayName": "TEXTLEY MCP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Find and edit text in TEXTLEY tabs and folder vaults on Mac, using the app's access settings.",
   "author": {

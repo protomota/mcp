@@ -9,4 +9,10 @@ Use this plugin with the MCP-enabled TEXTLEY Mac app in `/Applications`.
 
 Read the current revision before editing. Use `save_file` to save a buffer after an edit. Files and folders stay on your Mac, and a connected agent may send the text it retrieves to its AI provider.
 
+Download [Trail Log.md](examples/Trail%20Log.md) into a disposable folder and open the folder in TEXTLEY. Then try these prompts:
+
+- “List my open TEXTLEY folders and find Markdown files whose names contain ‘trail’.”
+- “Open Trail Log.md and show its Markdown preview.” This requires Read & write because it changes the open editor.
+- “In Trail Log.md, change ‘Strong wind’ to ‘Light wind’ and save the file.” This requires Read & write.
+
 [Setup and availability](https://textley.ai/mcp/#claude-code) · [Privacy](https://textley.ai/privacy/#mcp) · [Terms](https://protomota.com/terms) · [Support](https://textley.ai/support/)
