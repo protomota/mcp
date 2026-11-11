@@ -6,17 +6,17 @@
   },
   "plugins": [
     {
-      "name": "jotley-mcp",
+      "name": "protomota-jotley-mcp",
       "source": "./plugins/jotley-mcp",
       "description": "Search and organize notes, transcripts, and summaries in the Jotley Mac app."
     },
     {
-      "name": "inkspring-mcp",
+      "name": "protomota-inkspring-mcp",
       "source": "./plugins/inkspring-mcp",
       "description": "Use project research, drafts, and newsletters from the Inkspring desktop app."
     },
     {
-      "name": "opentalon-mcp",
+      "name": "protomota-opentalon-mcp",
       "source": "./plugins/opentalon-mcp",
       "description": "Read and update boards and tasks in the OpenTalon Mac app."
     }

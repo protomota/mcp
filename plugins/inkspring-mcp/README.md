@@ -1,12 +1,12 @@
 # Inkspring MCP
 
-Use project research, drafts, and newsletters from the Inkspring desktop app. The plugin runs in a local Claude Code session on the same Mac as the app.
+Find project research, edit unpublished drafts, and save newsletters in Inkspring. The plugin uses the MCP-enabled Inkspring Mac app in `/Applications`.
 
-Install the MCP-enabled Mac build and enable agent access under Settings → Work with your AI agent. Copy the Command, the single Argument, and the value of INKSPRING_MCP_CONFIG from Inkspring’s Codex setup into this plugin’s settings. Keep immediate posting off for draft work.
+1. Open Inkspring and enable MCP in its agent settings.
+2. In a local Claude Code session, run `/plugin install protomota-inkspring-mcp --marketplace protomota/mcp`.
+3. Open the plugin settings and enter the connection file value shown as `INKSPRING_MCP_CONFIG` in Inkspring agent setup.
+4. Check the MCP connection in a local session and start with a read-only request.
 
-Start a new local session and check the server in Claude Code’s MCP list. Start with a read-only request. To revoke access, turn off MCP access in the app.
+Start with `list_projects`, `list_drafts`, or `get_draft`. Use `edit_draft` on the selected draft. Keep changes unpublished unless the user requests publication or scheduling.
 
-- [Mac app and availability](https://inkspring.ai/)
-- [Claude Code setup](https://protomota.com/mcp#inkspring-claude)
-- [Codex setup](https://protomota.com/mcp#inkspring-codex)
-- [Support](https://protomota.com/#contact)
+[Inkspring setup and availability](https://protomota.com/mcp#inkspring-claude) · [Support](https://protomota.com/#contact)

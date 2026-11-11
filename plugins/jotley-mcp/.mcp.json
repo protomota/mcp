@@ -2,9 +2,9 @@
   "mcpServers": {
     "jotley": {
       "type": "stdio",
-      "command": "${user_config.executable}",
+      "command": "bash",
       "args": [
-        "--mcp-stdio"
+        "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
       ]
     }
   }

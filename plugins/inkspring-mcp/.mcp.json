@@ -2,12 +2,11 @@
   "mcpServers": {
     "inkspring": {
       "type": "stdio",
-      "command": "${user_config.executable}",
+      "command": "bash",
       "args": [
-        "${user_config.bridge}"
+        "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
       ],
       "env": {
-        "ELECTRON_RUN_AS_NODE": "1",
         "INKSPRING_MCP_CONFIG": "${user_config.connection_file}"
       }
     }

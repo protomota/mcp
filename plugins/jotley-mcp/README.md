@@ -1,12 +1,12 @@
 # Jotley MCP
 
-Search and organize notes, transcripts, and summaries in the Jotley Mac app. The plugin runs in a local Claude Code session on the same Mac as the app.
+Search notes and read transcripts or summaries. Jotley’s in-app access setting governs which edits are allowed. The plugin uses the MCP-enabled Jotley Mac app in `/Applications`.
 
-Install Jotley for Mac, open it, and enable MCP under Settings → Integrations → MCP. Select Read only to start. Copy the Command from Jotley’s Codex setup into the plugin’s App executable setting. This plugin uses the same local bridge in Claude Code.
+1. Open Jotley and enable MCP in its agent settings.
+2. In a local Claude Code session, run `/plugin install protomota-jotley-mcp --marketplace protomota/mcp`.
+3. Start a new local session while Jotley is open.
+4. Check the MCP connection in a local session and start with a read-only request.
 
-Start a new local session and check the server in Claude Code’s MCP list. Start with a read-only request. To revoke access, turn off MCP access in the app.
+Start with `search_notes` or `list_notes`. Use `read_note` with a section such as `summary` or `transcript`. Read the current revision before editing.
 
-- [Mac app and availability](https://jotley.ai/download)
-- [Claude Code setup](https://protomota.com/mcp#jotley-claude)
-- [Codex setup](https://protomota.com/mcp#jotley-codex)
-- [Support](https://protomota.com/#contact)
+[Jotley setup and availability](https://protomota.com/mcp#jotley-claude) · [Support](https://protomota.com/#contact)

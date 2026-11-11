@@ -1,32 +1,20 @@
 {
-  "name": "inkspring-mcp",
+  "name": "protomota-inkspring-mcp",
   "displayName": "Inkspring MCP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
-  "description": "Use project research, drafts, and newsletters from the Inkspring desktop app.",
+  "description": "Find project research, edit unpublished drafts, and save newsletters in Inkspring.",
   "author": {
     "name": "Protomota, LLC",
     "url": "https://protomota.com/"
   },
-  "homepage": "https://protomota.com/mcp#inkspring",
+  "homepage": "https://protomota.com/mcp#inkspring-claude",
   "repository": "https://github.com/protomota/mcp",
   "userConfig": {
-    "executable": {
-      "type": "string",
-      "title": "App executable",
-      "description": "Paste the Command shown in Inkspring agent setup. Use the absolute path without shell quotes.",
-      "required": true
-    },
-    "bridge": {
-      "type": "string",
-      "title": "Bridge argument",
-      "description": "Paste the single Argument shown in Inkspring agent setup.",
-      "required": true
-    },
     "connection_file": {
       "type": "string",
       "title": "Connection file",
-      "description": "Paste the value of INKSPRING_MCP_CONFIG shown in Inkspring agent setup.",
+      "description": "Copy the value of INKSPRING_MCP_CONFIG from Inkspring agent settings.",
       "required": true
     }
   }

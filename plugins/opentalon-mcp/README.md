@@ -1,12 +1,12 @@
 # OpenTalon MCP
 
-Read and update boards and tasks in the OpenTalon Mac app. The plugin runs in a local Claude Code session on the same Mac as the app.
+Read boards and update tasks in OpenTalon. Tasks are manual by default. The plugin uses the MCP-enabled OpenTalon Mac app in `/Applications`.
 
-Install the MCP-enabled Mac build and turn on agent access under Settings → Work with your AI agent. Copy the Command, the single Argument, and the value of OPENTALON_MCP_CONFIG from OpenTalon’s Codex setup into this plugin’s settings. Use a disposable board for the first write test.
+1. Open OpenTalon and enable MCP in its agent settings.
+2. In a local Claude Code session, run `/plugin install protomota-opentalon-mcp --marketplace protomota/mcp`.
+3. Open the plugin settings and enter the connection file value shown as `OPENTALON_MCP_CONFIG` in OpenTalon agent setup.
+4. Check the MCP connection in a local session and start with a read-only request.
 
-Start a new local session and check the server in Claude Code’s MCP list. Start with a read-only request. To revoke access, turn off MCP access in the app.
+Start with `list_boards`, `list_tasks`, or `get_task`. Read the current revision before changing a task. Use a fresh request key for each mutation. Move a task to Sent to agent only when the user requests dispatch.
 
-- [Mac app and availability](https://protomota.com/#opentalon)
-- [Claude Code setup](https://protomota.com/mcp#opentalon-claude)
-- [Codex setup](https://protomota.com/mcp#opentalon-codex)
-- [Support](https://protomota.com/#contact)
+[OpenTalon setup and availability](https://protomota.com/mcp#opentalon-claude) · [Support](https://protomota.com/#contact)
