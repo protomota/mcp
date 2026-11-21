@@ -1,21 +1,13 @@
 {
   "name": "protomota-inkspring-mcp",
   "displayName": "Inkspring MCP",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
-  "description": "Find project research, edit unpublished drafts, and save newsletters in Inkspring.",
+  "description": "Find project research, save post ideas and newsletters, and edit unpublished drafts in Inkspring.",
   "author": {
     "name": "Protomota, LLC",
     "url": "https://protomota.com/"
   },
   "homepage": "https://protomota.com/mcp#inkspring-claude",
-  "repository": "https://github.com/protomota/mcp",
-  "userConfig": {
-    "connection_file": {
-      "type": "string",
-      "title": "Connection file",
-      "description": "Copy the value of INKSPRING_MCP_CONFIG from Inkspring agent settings.",
-      "required": true
-    }
-  }
+  "repository": "https://github.com/protomota/mcp"
 }

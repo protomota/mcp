@@ -13,7 +13,7 @@
     {
       "name": "protomota-inkspring-mcp",
       "source": "./plugins/inkspring-mcp",
-      "description": "Use project research, drafts, and newsletters from the Inkspring desktop app."
+      "description": "Use project research, post ideas, drafts, and newsletters from the Inkspring desktop app."
     },
     {
       "name": "protomota-opentalon-mcp",

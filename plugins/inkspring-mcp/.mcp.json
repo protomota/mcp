@@ -5,10 +5,7 @@
       "command": "bash",
       "args": [
         "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
-      ],
-      "env": {
-        "INKSPRING_MCP_CONFIG": "${user_config.connection_file}"
-      }
+      ]
     }
   }
 }

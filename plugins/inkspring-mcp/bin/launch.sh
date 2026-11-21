@@ -8,10 +8,9 @@ if [[ ! -x "$binary" ]]; then
   exit 1
 fi
 
-if [[ -z "${INKSPRING_MCP_CONFIG:-}" || ! -r "$INKSPRING_MCP_CONFIG" ]]; then
-  printf '%s\n' 'Copy the local connection file value from Inkspring agent settings to the Claude plugin settings.' >&2
+if ! command -v node >/dev/null; then
+  printf '%s\n' 'Node.js is required by this plugin. You can also connect directly from Inkspring Settings → AI agents.' >&2
   exit 1
 fi
 
-export ELECTRON_RUN_AS_NODE=1
-exec "$binary" "${BASH_SOURCE[0]%/*}/gateway.cjs"
+exec node "${BASH_SOURCE[0]%/*}/gateway.cjs" "$binary"

@@ -4,7 +4,7 @@ The plugins run in a local Claude Code session and connect to the matching Mac a
 
 **Jotley.** The connection can read notes, transcripts, and summaries in the open library. If you enable read and write access, it can save changes into that library. Your notes remain under Jotley’s existing storage and iCloud settings. [Jotley privacy policy](https://jotley.ai/privacy)
 
-**Inkspring.** The Claude Marketplace plugin reads project and saved research data and can read or change unpublished drafts. Draft changes remain in the local database until you remove them. [Inkspring privacy policy](https://inkspring.ai/privacy)
+**Inkspring.** The Claude Marketplace plugin reads project and saved research data and can save post ideas or change unpublished writing. These changes remain in the local database until you remove them. [Inkspring privacy policy](https://inkspring.ai/privacy)
 
 **OpenTalon.** The connection reads and writes the local task database, which can include names, comments, attachments, and other information entered in a task. Edits remain in the local database until you remove them. Sending a task to an agent uses the provider and settings you selected. [Protomota privacy policy](https://protomota.com/privacy)
 
