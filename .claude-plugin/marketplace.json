@@ -1,10 +1,15 @@
 {
   "name": "protomota-mcp",
-  "description": "Local Mac integrations for Jotley, Inkspring, OpenTalon, TEXTLEY and Glimmer.",
+  "description": "Protomota's MCP server plus local Mac integrations for Jotley, Inkspring, OpenTalon, TEXTLEY and Glimmer.",
   "owner": {
     "name": "Protomota, LLC"
   },
   "plugins": [
+    {
+      "name": "protomota-contact-mcp",
+      "source": "./plugins/protomota-contact-mcp",
+      "description": "Ask about Protomota and send your request to the Protomota team from your AI agent."
+    },
     {
       "name": "protomota-jotley-mcp",
       "source": "./plugins/jotley-mcp",

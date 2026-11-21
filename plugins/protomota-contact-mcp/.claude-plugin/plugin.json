@@ -1,0 +1,13 @@
+{
+  "name": "protomota-contact-mcp",
+  "displayName": "Protomota MCP",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Ask about Protomota and send your request for AI agents, automation, consulting or custom apps to the Protomota team, straight from your AI agent.",
+  "author": {
+    "name": "Protomota, LLC",
+    "url": "https://protomota.com/"
+  },
+  "homepage": "https://protomota.com/mcp#agent",
+  "repository": "https://github.com/protomota/mcp"
+}
