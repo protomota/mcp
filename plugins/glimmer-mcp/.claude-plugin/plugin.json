@@ -1,7 +1,7 @@
 {
   "name": "protomota-glimmer-mcp",
   "displayName": "Glimmer MCP",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "Read your Glimmer attention summaries and log moments, energy and plan check-offs on Mac, using the app's access settings.",
   "author": {
