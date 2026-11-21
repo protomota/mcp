@@ -1,6 +1,6 @@
 {
   "name": "protomota-mcp",
-  "description": "Local Mac integrations for Jotley, Inkspring, OpenTalon, and TEXTLEY.",
+  "description": "Local Mac integrations for Jotley, Inkspring, OpenTalon, TEXTLEY and Glimmer.",
   "owner": {
     "name": "Protomota, LLC"
   },
@@ -24,6 +24,11 @@
       "name": "protomota-textley-mcp",
       "source": "./plugins/textley-mcp",
       "description": "Read and edit text in Textley tabs and folder vaults on Mac."
+    },
+    {
+      "name": "protomota-glimmer-mcp",
+      "source": "./plugins/glimmer-mcp",
+      "description": "Read attention summaries and log moments and plan check-offs in the Glimmer Mac app."
     }
   ]
 }
