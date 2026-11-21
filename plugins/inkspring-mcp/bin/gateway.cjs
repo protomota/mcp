@@ -30,7 +30,7 @@ async function handleMessage(message, forward) {
   }
   if (message.method === 'initialize' && response?.result) {
     response.result.capabilities = { tools: {} };
-    response.result.instructions = 'Start with list_projects. Use save_idea to save an open post idea and get_idea to read it back. Draft edits and newsletters stay in the local Inkspring workspace.';
+    response.result.instructions = 'Start with list_projects. Use save_idea to save an open post idea and get_idea to read it back. Save the idea as-is and choose a platform and format only when creating a draft. Draft edits and newsletters stay in the local Inkspring workspace.';
   }
   return response;
 }
