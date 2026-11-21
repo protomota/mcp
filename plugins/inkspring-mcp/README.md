@@ -8,7 +8,7 @@ The Claude Marketplace plugin exposes project and saved research reads, open ide
 2. In a local Claude Code session, run `/plugin install protomota-inkspring-mcp --marketplace protomota/mcp`.
 3. Check the MCP connection in a local session and start with a read-only request.
 
-Start with `list_projects`. Use `save_idea` with the project ID, title, and exact text to add a specific idea to **Post ideas → Open**, then verify it with `get_idea`. Use `get_draft` and `edit_draft` for an existing draft.
+Start with `list_projects`. Use `save_idea` with the project ID, title, and exact text to add a specific idea to **Post ideas → Open**, then verify it with `get_idea`. Choose a platform and format when creating a draft. Use `get_draft` and `edit_draft` for an existing draft.
 
 Try listing projects, finding a draft in a test project, or saving a supplied paragraph as an open idea. The Mac display can stay locked.
 
