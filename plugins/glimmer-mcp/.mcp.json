@@ -2,10 +2,7 @@
   "mcpServers": {
     "glimmer": {
       "type": "stdio",
-      "command": "bash",
-      "args": [
-        "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
-      ]
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
     }
   }
 }

@@ -2,9 +2,10 @@
   "mcpServers": {
     "inkspring": {
       "type": "stdio",
-      "command": "bash",
+      "command": "node",
       "args": [
-        "${CLAUDE_PLUGIN_ROOT}/bin/launch.sh"
+        "${CLAUDE_PLUGIN_ROOT}/bin/gateway.cjs",
+        "/Applications/Inkspring.app/Contents/MacOS/Inkspring"
       ]
     }
   }

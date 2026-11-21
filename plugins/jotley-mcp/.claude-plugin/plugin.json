@@ -1,7 +1,7 @@
 {
   "name": "protomota-jotley-mcp",
   "displayName": "Jotley MCP",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "Search notes and read transcripts or summaries. Jotley’s in-app access setting governs which edits are allowed.",
   "author": {
