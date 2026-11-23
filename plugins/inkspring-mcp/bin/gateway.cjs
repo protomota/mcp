@@ -5,6 +5,7 @@ const writingTools = new Set([
   'list_projects', 'list_research', 'list_drafts', 'get_draft', 'edit_draft',
   'list_newsletters', 'get_newsletter', 'save_newsletter',
   'list_ideas', 'get_idea', 'save_idea', 'edit_idea',
+  'make_image', 'attach_image',
 ]);
 
 const supportedMethods = new Set([
@@ -30,7 +31,7 @@ async function handleMessage(message, forward) {
   }
   if (message.method === 'initialize' && response?.result) {
     response.result.capabilities = { tools: {} };
-    response.result.instructions = 'Start with list_projects. Use save_idea to save an open post idea and get_idea to read it back. Save the idea as-is and choose a platform and format only when creating a draft. Draft edits and newsletters stay in the local Inkspring workspace.';
+    response.result.instructions = 'Start with list_projects. Use save_idea to save an open post idea and get_idea to read it back. When requested, use make_image to generate an image or attach_image to save a local image. Choose a platform and format only when creating a draft. All saved ideas, drafts, and newsletters stay in the local Inkspring workspace.';
   }
   return response;
 }

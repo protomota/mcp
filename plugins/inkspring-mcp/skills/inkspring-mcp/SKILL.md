@@ -1,6 +1,6 @@
 ---
 name: inkspring-mcp
-description: Find project research, save post ideas and newsletters, and edit saved social drafts through the Inkspring MCP plugin. Use the Mac app for media, revision recovery, scheduling, and publication review.
+description: Find project research, save post ideas and images, and edit saved drafts and newsletters through the Inkspring MCP plugin. Use the Mac app for revision recovery, scheduling, and publication review.
 ---
 
 # Inkspring MCP
@@ -11,4 +11,5 @@ description: Find project research, save post ideas and newsletters, and edit sa
 4. If wording is missing, open **Revision history** in the Mac draft editor and compare the saved versions. Restore the author's intended version before applying requested changes. Preserve their wording and media.
 5. On Mac, use the editable **Hashtags** field for Instagram and TikTok. When editing captions with the plugin, put tags in the last paragraph and confirm them in the publishing preview. Put LinkedIn hashtags in the post copy when requested. Leave X copy free of automatically added hashtags.
 6. For newsletters, confirm Substack is connected and the correct publication is selected. Verify attached cover art appears at the top of the article and check **Email subscribers** in the send review. For video posts, confirm the approved attachment appears in review. Keep the send paused if media is missing or a connection fails.
-7. Use the Mac app for attachments, schedules, and live review. After an authorized send, get the original URL from **Published** and verify the post and its media before reporting success. Check the original platform before retrying an uncertain send. [Publishing and scheduling guide](https://inkspring.ai/help#schedule)
+7. On Mac 1.0.65 or later, use `make_image` for a requested image or `attach_image` to save a local PNG, JPEG, or WebP. Pass one `idea_id` or `draft_id` and the last-read `expected_updated_at`. For a file, pass its absolute `file_path`. Read the item back and check its image. An idea’s image is reused when creating photo drafts in the app.
+8. Use the Mac app for schedules and live review. After an authorized send, get the original URL from **Published** and verify the post and its media before reporting success. Check the original platform before retrying an uncertain send. [Publishing and scheduling guide](https://inkspring.ai/help#schedule)

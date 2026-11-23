@@ -1,9 +1,9 @@
 {
   "name": "protomota-inkspring-mcp",
   "displayName": "Inkspring MCP",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
-  "description": "Find project research, save post ideas and newsletters, and edit unpublished drafts in Inkspring.",
+  "description": "Find project research, save post ideas and images, and edit unpublished drafts and newsletters in Inkspring.",
   "author": {
     "name": "Protomota, LLC",
     "url": "https://protomota.com/"
