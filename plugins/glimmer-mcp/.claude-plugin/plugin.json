@@ -1,9 +1,9 @@
 {
   "name": "protomota-glimmer-mcp",
   "displayName": "Glimmer MCP",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "MIT",
-  "description": "Read your Glimmer attention summaries and log moments, energy and plan check-offs on Mac, using the app's access settings.",
+  "description": "Bring Glimmer’s daily lesson and coaching practice into a dashboard, save a practice to a daily plan and sync completion through the local Mac app.",
   "author": {
     "name": "Protomota, LLC",
     "url": "https://protomota.com/"

@@ -33,7 +33,7 @@
     {
       "name": "protomota-glimmer-mcp",
       "source": "./plugins/glimmer-mcp",
-      "description": "Read attention summaries and log moments and plan check-offs in the Glimmer Mac app."
+      "description": "Read daily coaching, save a practice and sync completion between Glimmer for Mac and an agent-driven dashboard."
     }
   ]
 }
