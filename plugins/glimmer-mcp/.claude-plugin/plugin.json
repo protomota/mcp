@@ -1,7 +1,7 @@
 {
   "name": "protomota-glimmer-mcp",
   "displayName": "Glimmer MCP",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "description": "Bring Glimmer’s daily lesson and coaching practice into a dashboard, save a practice to a daily plan and sync completion through the local Mac app.",
   "author": {

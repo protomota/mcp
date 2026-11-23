@@ -13,6 +13,8 @@ On the Mac, install the latest Glimmer into Applications. Open **Glimmer → Set
 
 ## Read the day’s glimmer
 
+If the daily response includes a separate `reflection`, offer it when someone asks for a quiet check-in. Let them choose whether to try it. Use that reflection’s own practice and task IDs for saves and check-offs. Older releases omit the field. Read the user’s original practice selection as usual.
+
 1. With **Settings → Agent access → Share read-only summaries** enabled, call `get_daily_glimmer`. Show the lesson takeaway and its suggested practice in the user’s own dashboard or brief. Carry forward the returned author, role and guidance note when displaying editorial content. Preserve the returned local day, day identifier and practice identifier.
 2. For another option, call `list_practices` and use an identifier from the returned catalog. The public exercise text can be shown with summaries access. Keep private journal entries and unrelated task details out of dashboard copies.
 3. For a recurring dashboard the user has requested, have its existing scheduler run the same read on the Mac. Update the existing card using the connection and returned day identifier as its key. If the Mac is unavailable, retain the last card with its original date and a last-updated label. Fetch the current day on reconnect.

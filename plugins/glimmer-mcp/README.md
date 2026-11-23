@@ -19,6 +19,8 @@ Ask “Put today’s Glimmer takeaway and one practice on my morning dashboard.�
 
 For two-way tasks, ask “Save that practice in Glimmer and add it to my task list. When I check it off, mark the same task complete in Glimmer.” The skill explains how to retain the day and Glimmer task ID, retry writes and avoid duplicates. You can also use the daily read on its own.
 
+If your daily response includes a reflection, try “Show me today’s quiet reflection.” It can be saved independently of the suggested practice.
+
 Other supported prompts:
 
 - “How did my week feel in Glimmer? Which kinds of moments left me drained?”
