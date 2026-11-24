@@ -26,5 +26,7 @@ Other supported prompts:
 - “How did my week feel in Glimmer? Which kinds of moments left me drained?”
 - “What's left on my Glimmer plan today?” (needs logging and check-offs)
 - “Log 20 minutes of Instagram in Glimmer. It left me a bit off and I want less of it.” (needs logging and check-offs)
+- “Add ‘sort out my tax return’ to my Glimmer to-dos, broken into small steps, about an hour.” (needs logging and check-offs)
+- “Break the first step of my tax return to-do into smaller steps.” (needs logging and check-offs)
 
 [Setup](https://www.glimmertoday.com/mcp#claude-code) · [Privacy](https://www.glimmertoday.com/privacy#mcp) · [Terms](https://www.glimmertoday.com/terms) · [Support](https://www.glimmertoday.com/support)
