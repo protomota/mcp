@@ -2,7 +2,7 @@
   "name": "protomota-opentalon-mcp",
   "displayName": "OpenTalon MCP",
   "version": "0.1.2",
-  "license": "MIT",
+  "license": "Unlicense",
   "description": "Read boards and update tasks in OpenTalon. Tasks are manual by default.",
   "author": {
     "name": "Protomota, LLC",

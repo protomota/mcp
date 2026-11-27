@@ -15,4 +15,4 @@ In Claude Code, add this marketplace with `/plugin marketplace add protomota/mcp
 
 The Protomota MCP server runs at `https://protomota.com/mcp` and needs nothing installed; any MCP-capable agent can connect to that URL. The app MCP servers run inside their respective apps. Check the [Protomota MCP hub](https://protomota.com/mcp) for Mac availability and [the app skills](https://github.com/protomota/skills). Start with a read-only request and use a disposable item for your first write. Turn MCP access off in the app to revoke its connection.
 
-The plugin files and skills here are MIT-licensed. See each app’s own terms for the app itself.
+The plugin files and skills here are public domain (Unlicense). See each app’s own terms for the app itself.

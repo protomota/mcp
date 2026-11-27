@@ -2,7 +2,7 @@
   "name": "protomota-jotley-mcp",
   "displayName": "Jotley for Mac",
   "version": "0.1.3",
-  "license": "MIT",
+  "license": "Unlicense",
   "description": "Search notes and read transcripts or summaries. Jotley’s in-app access setting governs which edits are allowed.",
   "author": {
     "name": "Protomota, LLC",
